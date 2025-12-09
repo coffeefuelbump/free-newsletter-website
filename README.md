@@ -1,5 +1,8 @@
 # 📬 Newsletter Signup Landing Page
 
+<img width="2024" height="1177" alt="Screenshot 2025-12-09 at 9 14 16 AM" src="https://github.com/user-attachments/assets/4d914edf-abea-47e2-b786-85486ee3bf77" />
+
+
 ## 🌟 Connect & Learn More
 
 [![Join AI Community](https://img.shields.io/badge/🚀_Join-AI_Community_(FREE)-4F46E5?style=for-the-badge)](https://www.skool.com/ai-for-your-business)
