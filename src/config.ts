@@ -15,17 +15,18 @@ export const content = {
   // Badge above headline
   badgeText: "Join 1,000 subscribers",
 
-  // Main headline (the accent part gets the gradient color)
+  // Main headline
   headlineStart: "Stay ahead with",
-  headlineAccent: " insights that matter",
+  headlineAccent: "insights that matter.",
 
   // Description below headline
   subheadline:
-    "Get exclusive content, industry trends, and actionable strategies delivered to your inbox every week. No spam, just value.",
+    "Get the latest AI news, industry trends, and ideas you can use, delivered to your inbox every week.",
 
   // Button text
-  buttonText: "Subscribe Now",
-  buttonLoadingText: "Subscribing...",
+  signupTitle: "Get the newsletter",
+  buttonText: "Subscribe now",
+  buttonLoadingText: "Subscribing…",
 
   // Success message after subscribing
   successTitle: "You're on the list!",
@@ -33,25 +34,25 @@ export const content = {
     "Thanks for subscribing. We'll send you our best content straight to your inbox.",
 
   // Footer
-  footerText: "© 2025 Newsletter. All rights reserved.",
-  privacyNote: "By subscribing, you agree to our Privacy Policy. Unsubscribe anytime.",
+  footerText: `© ${new Date().getFullYear()} Newsletter. All rights reserved.`,
+  privacyNote: "Unsubscribe anytime.",
 
   // Features section
   features: [
     {
-      icon: "🤖",
-      title: "AI News",
-      description: "Latest AI trends and updates",
+      icon: "✦",
+      title: "AI news",
+      description: "Key updates from the world of AI",
     },
     {
-      icon: "☕",
-      title: "I Love Coffee",
-      description: "Fueled by caffeine",
+      icon: "↗",
+      title: "Industry trends",
+      description: "What’s changing and why it matters",
     },
     {
-      icon: "👍",
-      title: "Make sure to leave like",
-      description: "Support the content",
+      icon: "✓",
+      title: "Actionable ideas",
+      description: "Strategies to try in your own work",
     },
   ],
 };
@@ -80,23 +81,23 @@ export const referralSources = [
 // Use hex colors like "#ff0000" or rgb like "rgb(255, 0, 0)"
 export const colors = {
   // Background colors
-  bgPrimary: "#0a0a0b",      // Main background (darkest)
-  bgSecondary: "#111113",    // Card/input background
-  bgTertiary: "#1a1a1d",     // Badge/hover background
+  bgPrimary: "#f7f6fa",
+  bgSecondary: "#ffffff",
+  bgTertiary: "#fbfafd",
 
   // Accent colors (your brand color!)
-  accentPrimary: "#a855f7",   // Main accent (purple)
-  accentSecondary: "#c084fc", // Lighter accent for gradients
+  accentPrimary: "#5d25bb",
+  accentSecondary: "#e9ddff",
 
   // Text colors
-  textPrimary: "#fafafa",    // Main text (brightest)
-  textSecondary: "#a1a1aa",  // Subheadline text
-  textMuted: "#71717a",      // Placeholder/footer text
+  textPrimary: "#20172b",
+  textSecondary: "#62596d",
+  textMuted: "#6f657a",
 
   // Other colors
-  borderColor: "#27272a",    // Border/divider color
-  success: "#22c55e",        // Success green
-  error: "#ef4444",          // Error red
+  borderColor: "#e3deea",
+  success: "#157349",
+  error: "#a92e47",
 };
 
 // ============================================
@@ -105,11 +106,11 @@ export const colors = {
 // Google Fonts are already set up! Just change the names here.
 // Find fonts at: https://fonts.google.com
 export const fonts = {
-  // Heading font (used for headlines, buttons, logo)
-  heading: "'Orbitron', sans-serif",
+  // Display font for the accented headline
+  heading: "'Instrument Serif', Georgia, serif",
 
-  // Body font (used for paragraphs, inputs, labels)
-  body: "'Rajdhani', sans-serif",
+  // Main font for copy, headings, and form controls
+  body: "'DM Sans', system-ui, sans-serif",
 };
 
 // ============================================
