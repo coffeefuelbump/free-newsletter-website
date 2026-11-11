@@ -13,7 +13,7 @@ export const content = {
   logoText: "Newsletter",
 
   // Badge above headline
-  badgeText: "Join 1,000 subscribers",
+  badgeText: "Join 10,000 subscribers",
 
   // Main headline
   headlineStart: "Stay ahead with",
