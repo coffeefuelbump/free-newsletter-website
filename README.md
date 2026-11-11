@@ -222,6 +222,10 @@ This creates a `dist` folder you can deploy to any static hosting.
 
 ## 🌐 Deploy to a Live Website (FREE!)
 
+This repository publishes to [GitHub Pages](https://coffeefuelbump.github.io/free-newsletter-website/) whenever changes land on `main`. For a fork, select **GitHub Actions** under **Settings → Pages → Build and deployment**.
+
+To enable signups on the hosted site, add `VITE_ZAPIER_WEBHOOK_URL` as a repository variable under **Settings → Secrets and variables → Actions → Variables**. Then run **Deploy to GitHub Pages** from the **Actions** tab on `main`. The browser bundle includes this URL, so use an endpoint intended for public form submissions.
+
 Want to put this on a real website link for free? Watch this tutorial:
 
 [![Deploy for Free](https://img.shields.io/badge/🎬_Watch_Tutorial-Deploy_for_FREE-red?style=for-the-badge&logo=youtube)](https://youtu.be/2WnxKCFAXAM?si=8rigSe9rL4sdD2hT)
