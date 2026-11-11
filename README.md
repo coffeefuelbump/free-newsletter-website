@@ -1,6 +1,6 @@
 # 📬 Newsletter Signup Landing Page
 
-<img width="2024" height="1177" alt="Screenshot 2025-12-09 at 9 14 16 AM" src="https://github.com/user-attachments/assets/4d914edf-abea-47e2-b786-85486ee3bf77" />
+![Newsletter landing page with the headline and signup form side by side](docs/images/newsletter-landing-page.webp)
 
 
 ## 🌟 Connect & Learn More
