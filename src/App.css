@@ -80,7 +80,7 @@
   border: 1px solid var(--border-color);
   border-radius: 26px;
   background: var(--bg-secondary);
-  box-shadow: 0 18px 52px -40px #28143e55;
+  box-shadow: 0 18px 52px -40px color-mix(in srgb, var(--text-primary) 33%, transparent);
 }
 
 .hero {
@@ -104,6 +104,7 @@
 .hero-art {
   object-fit: cover;
   object-position: center top;
+  filter: hue-rotate(-55deg);
 }
 
 .hero::after {

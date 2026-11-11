@@ -65,16 +65,16 @@ Open `src/config.ts` and find the `colors` section:
 ```typescript
 export const colors = {
   // Background colors
-  bgPrimary: "#0a0a0b",      // Main background
-  bgSecondary: "#111113",    // Card background
+  bgPrimary: "#f5f8fc",      // Main background
+  bgSecondary: "#ffffff",    // Card background
   
   // Accent colors (your brand color!)
-  accentPrimary: "#f59e0b",   // Change this to your brand color!
-  accentSecondary: "#fbbf24", // Lighter version for gradients
+  accentPrimary: "#1d4ed8",   // Change this to your brand color!
+  accentSecondary: "#dbeafe", // Lighter version for gradients
   
   // Text colors
-  textPrimary: "#fafafa",    // Main text
-  textSecondary: "#a1a1aa",  // Subtext
+  textPrimary: "#17243b",    // Main text
+  textSecondary: "#4b5b71",  // Subtext
   // ... more colors
 };
 ```
@@ -83,8 +83,8 @@ export const colors = {
 
 | Theme | Primary | Secondary |
 |-------|---------|-----------|
-| 🟠 Amber (default) | `#f59e0b` | `#fbbf24` |
-| 🔵 Blue | `#3b82f6` | `#60a5fa` |
+| 🔵 Blue (default) | `#1d4ed8` | `#dbeafe` |
+| 🟠 Amber | `#f59e0b` | `#fbbf24` |
 | 🟣 Purple | `#8b5cf6` | `#a78bfa` |
 | 🟢 Green | `#10b981` | `#34d399` |
 | 🔴 Red | `#ef4444` | `#f87171` |
