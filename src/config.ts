@@ -9,7 +9,7 @@
 // ============================================
 export const content = {
   // Logo & Branding
-  logoIcon: "◈",
+  logoIcon: "", // Leave blank for the envelope, or enter a custom symbol.
   logoText: "Newsletter",
 
   // Badge above headline
