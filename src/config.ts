@@ -81,21 +81,21 @@ export const referralSources = [
 // Use hex colors like "#ff0000" or rgb like "rgb(255, 0, 0)"
 export const colors = {
   // Background colors
-  bgPrimary: "#f7f6fa",
+  bgPrimary: "#f5f8fc",
   bgSecondary: "#ffffff",
-  bgTertiary: "#fbfafd",
+  bgTertiary: "#f8fafc",
 
   // Accent colors (your brand color!)
-  accentPrimary: "#5d25bb",
-  accentSecondary: "#e9ddff",
+  accentPrimary: "#1d4ed8",
+  accentSecondary: "#dbeafe",
 
   // Text colors
-  textPrimary: "#20172b",
-  textSecondary: "#62596d",
-  textMuted: "#6f657a",
+  textPrimary: "#17243b",
+  textSecondary: "#4b5b71",
+  textMuted: "#5d6d84",
 
   // Other colors
-  borderColor: "#e3deea",
+  borderColor: "#dbe4ef",
   success: "#157349",
   error: "#a92e47",
 };
