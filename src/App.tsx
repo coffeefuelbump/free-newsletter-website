@@ -84,7 +84,9 @@ function App() {
     <div className="app" id="top" style={theme}>
       <header className="site-header page-width">
         <a className="brand" href="#top">
-          <span className="brand-mark" aria-hidden="true">{content.logoIcon}</span>
+          <span className="brand-mark" aria-hidden="true">
+            {content.logoIcon || <span className="envelope" />}
+          </span>
           {content.logoText}
         </a>
         {!isSubmitted && (
